@@ -1,0 +1,58 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/app/src/dist
+/app/src/tmp
+/app/src/out-tsc
+# Only exists if Bazel was run
+/app/src/bazel-out
+
+# dependencies
+/app/src/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/app/src/.idea
+/app/src.project
+/app/src.classpath
+/app/src.c9/
+/app/src*.launch
+/app/src.settings/
+/app/src*.sublime-workspace
+
+# IDE - VSCode
+/app/src.vscode/*
+/app/src!.vscode/settings.json
+/app/src!.vscode/tasks.json
+/app/src!.vscode/launch.json
+/app/src!.vscode/extensions.json
+/app/src.history/*
+
+# misc
+/app/src/.sass-cache
+/app/src/connect.lock
+/app/src/coverage
+/app/src/libpeerconnection.log
+/app/src/npm-debug.log
+/app/src/yarn-error.log
+/app/src/testem.log
+/app/src/typings
+
+# System Files
+/app/src.DS_Store
+/app/srcThumbs.db
+
+#backend
+/api/src/node_modules
+/api/src/dist
+/api/src/.sass-cache
+/api/src/connect.lock
+/api/src/coverage
+/api/src/libpeerconnection.log
+/api/src/npm-debug.log
+/api/src/yarn-error.log
+/api/src/testem.log
+/api/src/typings
